@@ -162,8 +162,6 @@ public class PrimarySceneController
                     player = new MediaPlayer( new Media(uriString));//loads the filepath of the track you want to play
                     player.play();//plays the song
                     return;
-                }else{
-                System.out.println("song not found");
                 }
             }
         }catch(SQLException e){
