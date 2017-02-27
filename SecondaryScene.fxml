@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane prefHeight="318.0" prefWidth="401.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="SecondarySceneController">
+   <children>
+      <Button fx:id="saveButton" layoutX="73.0" layoutY="264.0" minWidth="100.0" mnemonicParsing="false" onMouseClicked="#saveButtonClicked" prefWidth="67.0" text="Save" />
+      <Button fx:id="cancelButton" layoutX="228.0" layoutY="264.0" minWidth="100.0" mnemonicParsing="false" onMouseClicked="#cancelButtonClicked" text="Cancel" />
+      <Label layoutX="44.0" layoutY="79.0" minWidth="100.0" text="Genre" />
+      <ChoiceBox fx:id="genreChoiceBox" layoutX="86.0" layoutY="75.0" minWidth="144.0" prefHeight="25.0" prefWidth="144.0" />
+      <Label layoutX="44.0" layoutY="212.0" minWidth="100.0" text="Artist" />
+      <TextField fx:id="artistNameTextField" layoutX="86.0" layoutY="208.0" minWidth="200.0" />
+      <Label layoutX="42.0" layoutY="123.0" minWidth="100.0" text="Album" />
+      <TextField fx:id="albumNameTextField" layoutX="86.0" layoutY="119.0" minWidth="200.0" />
+      <Label layoutX="44.0" layoutY="167.0" minWidth="100.0" text="Path" />
+      <TextField fx:id="pathTextField" layoutX="86.0" layoutY="163.0" minWidth="67.0" prefHeight="25.0" prefWidth="279.0" />
+      <Label layoutX="44.0" layoutY="36.0" minWidth="100.0" text="Track" />
+      <TextField fx:id="trackNameTextField" layoutX="86.0" layoutY="32.0" minWidth="200.0" />
+      <Button fx:id="browseButton" layoutX="306.0" layoutY="32.0" mnemonicParsing="false" onMouseClicked="#browseButtonClicked" text="Browse" />
+   </children>
+</Pane>
